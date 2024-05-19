@@ -239,8 +239,8 @@ impl WsClient {
                 compress: true,
                 large_threshold: constants::LARGE_THRESHOLD,
                 properties: IdentifyProperties {
-                    browser: "serenity-self",
-                    device: "serenity-self",
+                    browser: "serenity",
+                    device: "serenity",
                     os: consts::OS,
                 },
                 presence: PresenceUpdateMessage {
